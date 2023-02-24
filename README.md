@@ -150,8 +150,6 @@ I am always looking for ways to improve my project. If you have any suggestions 
 
 I welcome any and all contributions to my website! If you have an idea for a new feature or have found a bug, please open an issue or submit a pull request.
 
-Feel free to check the [issues page](../../issues/).
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
