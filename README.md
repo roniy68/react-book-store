@@ -64,7 +64,7 @@ A web-based application to understand about the basics of React - Redux
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-***Live*** :  [Math Magician](https://63f89b28ed3dd406ccf11729--ahr-React-Bookstore.netlify.app/).
+***Live*** :  Under Construction
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -149,7 +149,7 @@ I am always looking for ways to improve my project. If you have any suggestions 
 ## 🤝 Contributing <a name="contributing"></a>
 
 I welcome any and all contributions to my website! If you have an idea for a new feature or have found a bug, please open an issue or submit a pull request.
-
+Feel free to check the [issues page](https://github.com/roniy68/react-book-store/issues).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
