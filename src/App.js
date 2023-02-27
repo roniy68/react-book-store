@@ -4,7 +4,7 @@ import Categories from './components/Categories';
 import Nav from './components/Nav';
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route element={<Nav />}>
         <Route path="/" element={<Books />} />
