@@ -64,7 +64,7 @@ A web-based application to understand about the basics of React - Redux
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-***Live*** :  [React Book Store](https://roniy68.github.io/react-book-store)
+***Live*** :  [React Book Store](https://celadon-hotteok-86b12e.netlify.app)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
