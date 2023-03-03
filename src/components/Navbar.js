@@ -1,5 +1,5 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -7,7 +7,7 @@ function Navbar() {
       <ul className="nav-links">
         <li className="nav-link">
           <NavLink
-            className={(linkData) => (linkData.isActive ? 'active-link' : '')}
+            className={(linkData) => (linkData.isActive ? "active-link" : "")}
             to="/"
           >
             Books
@@ -15,7 +15,7 @@ function Navbar() {
         </li>
         <li className="nav-link">
           <NavLink
-            className={(linkData) => (linkData.isActive ? 'active-link' : '')}
+            className={(linkData) => (linkData.isActive ? "active-link" : "")}
             to="/categories"
           >
             Categories
