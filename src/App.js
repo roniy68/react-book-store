@@ -1,17 +1,24 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Books from './components/Books';
-import Categories from './components/Navbar';
-import Nav from './components/Header';
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from 'react-router-dom';
+import RootLayout from './layout/RootLayout';
+import BooksPage from './pages/BooksPage';
+import CategoriesPage from './pages/CategoriesPage';
 
-const App = () => (
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <Routes>
-      <Route element={<Nav />}>
-        <Route path="/" element={<Books />} />
-        <Route path="categories" element={<Categories />} />
-      </Route>
-    </Routes>
-  </BrowserRouter>
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<RootLayout />}>
+      <Route index element={<BooksPage />} />
+      <Route path="categories" element={<CategoriesPage />} />
+    </Route>,
+  ),
 );
+
+function App() {
+  return <RouterProvider router={router} />;
+}
 
 export default App;
