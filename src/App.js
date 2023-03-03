@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Books from './components/Books';
-import Categories from './components/Categories';
-import Nav from './components/Nav';
+import Categories from './components/Navbar';
+import Nav from './components/Header';
 
 const App = () => (
   <BrowserRouter basename={process.env.PUBLIC_URL}>
