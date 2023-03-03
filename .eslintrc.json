@@ -35,8 +35,7 @@
     "no-shadow": "off",
     "linebreak-style": "off",
     "react/prop-types": "off",
-    "import/extensions": "off",
-    "react/no-array-index-key" : "off"
+    "import/extensions": "off"
   },
   "ignorePatterns": [
     "dist/",
