@@ -1,6 +1,6 @@
-import React from "react";
-import { useDispatch } from "react-redux";
-import { booksActions } from "../redux/books/booksSlice";
+import React from 'react';
+import { useDispatch } from 'react-redux';
+import { booksActions } from '../redux/books/booksSlice';
 
 function Book(props) {
   const dispatch = useDispatch();
@@ -16,7 +16,10 @@ function Book(props) {
   return (
     <div>
       <h2>{title}</h2>
-      <span>By{author}</span>
+      <span>
+        By
+        {author}
+      </span>
       <button type="button" data-id={id} onClick={removeBookHandler}>
         Remove
       </button>
